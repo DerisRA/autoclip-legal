@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoClip Privacy Policy</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 16px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 1.6em; }
+</style>
+</head>
+<body>
+<h1>AutoClip Privacy Policy</h1>
+<p>Last updated: 18 November 2026</p>
+
+<h2>1. What AutoClip is</h2>
+<p>AutoClip is a desktop app that runs on the user's own computer. It turns long videos and live streams into short vertical clips with subtitles. The developer does not run a server that receives or stores user data.</p>
+
+<h2>2. Data stored on your computer</h2>
+<p>AutoClip stores these files only on the computer where it runs:</p>
+<ul>
+  <li>Downloaded source videos, generated clips, and transcripts, in the app's data folder.</li>
+  <li>Your settings and API keys, in the <code>.env</code> file.</li>
+  <li>TikTok and YouTube login tokens, in the app's data folder.</li>
+  <li>A short rolling buffer of live stream video. Older parts are deleted automatically.</li>
+</ul>
+<p>You can delete any job from the app. You can delete everything by deleting the app's data folder.</p>
+
+<h2>3. Data sent to other services</h2>
+<p>AutoClip sends data only when you use a feature that needs it:</p>
+<ul>
+  <li><strong>AI providers you configure</strong> (Anthropic, OpenAI, DeepSeek, or Google Gemini): transcript text and video titles are sent so the AI can pick clips and write captions. Each provider handles that data under its own privacy policy.</li>
+  <li><strong>The video source you choose</strong> (for example YouTube, Twitch, or another site): AutoClip downloads the video from that site.</li>
+  <li><strong>YouTube</strong>, if you upload a clip there: the clip, its title, description, and privacy setting are sent to YouTube.</li>
+  <li><strong>TikTok</strong>, if you send a clip to your TikTok inbox: the clip file is sent to TikTok. You write the caption inside TikTok.</li>
+  <li><strong>Telegram</strong>, if you connect the optional bot: job status messages and clip titles are sent to your Telegram chat.</li>
+</ul>
+
+<h2>4. What we do not do</h2>
+<p>AutoClip does not sell data, show ads, or use analytics. The developer does not receive your videos, transcripts, tokens, or API keys.</p>
+
+<h2>5. Your choices</h2>
+<p>You choose which AI provider, video source, and platforms to use. You can disconnect TikTok or YouTube at any time by deleting the saved token files in the app's data folder. You can stop using AutoClip at any time.</p>
+
+<h2>6. Children</h2>
+<p>AutoClip is not directed at children under 13.</p>
+
+<h2>7. Changes</h2>
+<p>If this policy changes, the new version is posted on this page with a new date.</p>
+
+<h2>8. Contact</h2>
+<p>Questions about this policy can be sent through the Issues page of the project repository.</p>
+</body>
+</html>
